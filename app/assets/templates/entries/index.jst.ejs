@@ -1,0 +1,9 @@
+<h1>Bookmark</h1>
+<%= entries.length %>
+
+
+<% entries.each(function(entry){%>
+ <li><%= entry.get('name') %>
+ <%= entry.get('address') %>
+ <%= entry.get('tag') %></li>
+ <% }); %>

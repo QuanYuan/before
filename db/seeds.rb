@@ -5,3 +5,7 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Entry.create(name:"java",address:"http://www.google.com",tag:"java tag")
+Entry.create(name:"c",address:"http://www.google.com",tag:"c tag")
+Entry.create(name:"sql",address:"http://www.google.com",tag:"sql tag")
