@@ -1,9 +1,32 @@
-<h1>Bookmark</h1>
-<%= entries.length %>
+<h1>Stored Bookmarks</h1>
+<div id="createBookmark">
+<h2> New Bookmark</h2>
+<form id="new_entry">
 
+ <ul>
+  Name
+  <input type="text" name="name" id="new_entry_name"> </ul>
+<ul>
+  Address
+  <input type="text" name="address" id="new_entry_address"></ul>
+  <ul>
+    Tags
+  <input type="text" name="tags" id="new_entry_tags"></ul>
+  <input type="submit" value="Add">
+</form>
+</div>
+<tr>
+  <td>Name</td>
+  <td>Address</td>
+  <td>Tags</td>
+</tr>
 
 <% entries.each(function(entry){%>
- <li><%= entry.get('name') %>
- <%= entry.get('address') %>
- <%= entry.get('tag') %></li>
+<br>
+<tr>
+ <td><%= entry.get('name') %></td>
+ <td><%= entry.get('address') %></td>
+ <td><%= entry.get('tag') %></td>
+ </tr>
+ </br>
  <% }); %>
