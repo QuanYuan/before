@@ -4,7 +4,7 @@ window.Book = {
   Views: {},
   Routers: {},
   initialize: function() {
-return alert('Hello from Backbone js here hah!');
+return alert('Hello from Backbone js here hah again!');
 }
 };
 
