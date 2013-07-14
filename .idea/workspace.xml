@@ -14,7 +14,7 @@
     <file path="/entries_index.js.coffee" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373774278472" ignored="false" />
     <file path="/entries_router.js" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373777370622" ignored="false" />
     <file path="/book.js" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373775572351" ignored="false" />
-    <file path="/entries_index.js" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373830534584" ignored="false" />
+    <file path="/entries_index.js" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373831273769" ignored="false" />
     <file path="/index.jst.ejs" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373830521209" ignored="false" />
     <file path="/seeds.rb" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373776944277" ignored="false" />
     <file path="/Dummy.txt" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373821576145" ignored="false" />
@@ -50,7 +50,16 @@
       <file leaf-file-name="entries_index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/views/entries/entries_index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="53" selection-start="1408" selection-end="1408" vertical-scroll-proportion="1.0585586">
+            <state line="95" column="27" selection-start="3102" selection-end="3102" vertical-scroll-proportion="0.14414415">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="entry.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/entry.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -84,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/javascripts/book.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/models/entry.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/collections/entries.js.coffee" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/routers/entries_router.js.coffee" />
@@ -99,6 +107,7 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/views/entries/entry.js" />
         <option value="$PROJECT_DIR$/app/assets/templates/entries/entry.jst.ejs" />
         <option value="$PROJECT_DIR$/app/assets/templates/entries/index.jst.ejs" />
+        <option value="$PROJECT_DIR$/app/models/entry.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/views/entries/entries_index.js" />
       </list>
     </option>
@@ -234,6 +243,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="book" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -873,9 +900,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/entry.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/views/entries/entries_index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="53" selection-start="1408" selection-end="1408" vertical-scroll-proportion="1.0585586">
+        <state line="95" column="27" selection-start="3102" selection-end="3102" vertical-scroll-proportion="0.14414415">
           <folding />
         </state>
       </provider>

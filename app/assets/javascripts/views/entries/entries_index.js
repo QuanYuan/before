@@ -29,15 +29,35 @@ initialize:function(){
     createEntry:function(e){
 
         e.preventDefault();
-
-        this.collection.create({
-            name: $('#new_entry_name').val(),
-            address:$('#new_entry_address').val(),
-            tag:$('#new_entry_tags').val()
+var attributes={
+    name: $('#new_entry_name').val(),
+    address:$('#new_entry_address').val(),
+    tag:$('#new_entry_tags').val()
+};
+        this.collection.create(attributes, {
+            wait: true,
+            success: function() {
+                return $('#new_entry')[0].reset();
+            },
+            error: this.handleError
         });
-
-        $('#new_entry')[0].reset();
         $('#createBookmark').hide();
+    },
+    handleError: function(entry, response) {
+        var attribute, errors, message, messages, st, _i, _len;
+        if (response.status === 422) {
+            $('#createBookmark').show();
+            errors = $.parseJSON(response.responseText).errors;
+            st = "";
+            for (attribute in errors) {
+                messages = errors[attribute];
+                for (_i = 0, _len = messages.length; _i < _len; _i++) {
+                    message = messages[_i];
+                    st += "Error:" + ("" + attribute + " " + message) + "\n";
+                }
+            }
+            return alert(st);
+        }
     },
     appendEntry:function(entry){
         var view=new book.views.Entry({model:entry});
@@ -68,11 +88,10 @@ initialize:function(){
         $('#new_entry_name').val(name)
         $('#new_entry_address').val(address)
         $('#new_entry_tags').val(tags)
+        //edit cannot work when add then directly edit it, should use listener, with data
+        //validation now it is working
     },
-    byName:function(name){
-        var filtered=this.collection.filter(function(){})
 
-    },
     filterBookmark:function(e){
         e.preventDefault();
         $('.filterResults').empty();
