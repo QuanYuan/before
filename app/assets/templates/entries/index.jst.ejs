@@ -1,6 +1,8 @@
 <h1>Stored Bookmarks</h1>
+<button id="draw">New Bookmark</button>
 <div id="createBookmark">
 <h2> New Bookmark</h2>
+
 <form id="new_entry">
 
  <ul>
@@ -15,18 +17,12 @@
   <input type="submit" value="Add">
 </form>
 </div>
+
 <tr>
   <td>Name</td>
   <td>Address</td>
   <td>Tags</td>
 </tr>
 
-<% entries.each(function(entry){%>
-<br>
-<tr>
- <td><%= entry.get('name') %></td>
- <td><%= entry.get('address') %></td>
- <td><%= entry.get('tag') %></td>
- </tr>
- </br>
- <% }); %>
+<ul id="entries"></ul>
+
