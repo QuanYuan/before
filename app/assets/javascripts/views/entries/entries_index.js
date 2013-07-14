@@ -10,7 +10,8 @@ book.views.EntriesIndex=Backbone.View.extend({
         "submit #new_entry": "createEntry",
         "click #draw": "drawWinner",
         "click #deleteEntry":"deleteBookmark",
-        "click #editEntry":"editBookmark"
+        "click #editEntry":"editBookmark",
+        "click #filterEntry":"filterBookmark"
     },
 
 initialize:function(){
@@ -42,6 +43,10 @@ initialize:function(){
         var view=new book.views.Entry({model:entry});
         $('#entries').append(view.render().el);
     },
+    appendFilter:function(entry){
+        var view=new book.views.Entry({model:entry});
+        $('.filterResults').append(view.render().el);
+    },
     drawWinner:function(e){
         e.preventDefault();
         $('#createBookmark').show();
@@ -63,6 +68,40 @@ initialize:function(){
         $('#new_entry_name').val(name)
         $('#new_entry_address').val(address)
         $('#new_entry_tags').val(tags)
+    },
+    byName:function(name){
+        var filtered=this.collection.filter(function(){})
+
+    },
+    filterBookmark:function(e){
+        e.preventDefault();
+        $('.filterResults').empty();
+        var lookup=$('#filterField').val();
+        console.log (lookup);
+        var results_name=this.collection.where({name:lookup});
+        var results_address=this.collection.where({address:lookup});
+        var results_tags=this.collection.where({tags:lookup});
+
+        if(!jQuery.isEmptyObject(results_name)||!jQuery.isEmptyObject(results_address)||!jQuery.isEmptyObject(results_tags)){
+            $('#entries').hide();
+            if(!jQuery.isEmptyObject(results_name)){
+                var results=new book.collections.Entries(results_name);
+                results.each(this.appendFilter);
+            }
+            if(!jQuery.isEmptyObject(results_address)){
+                var results=new book.collections.Entries(results_address);
+                results.each(this.appendFilter);
+            }
+            if(!jQuery.isEmptyObject(results_tags)){
+                var results=new book.collections.Entries(results_tags);
+                results.each(this.appendFilter);
+            }
+
+        }
+        else  {
+            $('#entries').show();
+        $('.filterResults').empty();
+        }
     }
 
 

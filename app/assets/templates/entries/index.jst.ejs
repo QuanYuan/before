@@ -1,10 +1,11 @@
 <h1>Stored Bookmarks</h1>
 <button id="draw">New Bookmark</button>
+<input type="text" id="filterField" value="Filtering">
+<button id="filterEntry">Filter</button>
+
 <div id="createBookmark">
 <h2> New Bookmark</h2>
-
 <form id="new_entry">
-
  <ul>
   Name
   <input type="text" name="name" id="new_entry_name"> </ul>
@@ -18,11 +19,14 @@
 </form>
 </div>
 
+<br>
 <tr>
   <td>Name</td>
   <td>Address</td>
   <td>Tags</td>
 </tr>
 
-<ul id="entries"></ul>
+<div id="entries"></div>
+<div class="filterResults"></div>
+
 
