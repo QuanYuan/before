@@ -3,7 +3,8 @@
   book.routers.Entries=Backbone.Router.extend({
       routes:{
           "": "index",
-          "entries/:id": "show"
+          "entries/:id": "show",
+          "/about":"about"
       },
       initialize:function(){
           this.collection=new book.collections.Entries();
@@ -20,6 +21,9 @@
       },
       show:function(id){
           alert( "Entry "+id);
+      },
+      about:function(){
+          document.write("<h1>This is a heading</h1>");
       }
 
 

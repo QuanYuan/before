@@ -5,7 +5,8 @@ Book::Application.routes.draw do
 
 
   root to: "main#index"
-
+  match '/about', to:'main#about'
+  match '/contact', to:'main#contact'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
