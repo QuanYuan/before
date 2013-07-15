@@ -15,7 +15,7 @@
     <file path="/entries_router.js" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373831935068" ignored="false" />
     <file path="/book.js" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373775572351" ignored="false" />
     <file path="/entries_index.js" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373910389769" ignored="false" />
-    <file path="/index.jst.ejs" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373909152799" ignored="false" />
+    <file path="/index.jst.ejs" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373910819789" ignored="false" />
     <file path="/seeds.rb" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373776944277" ignored="false" />
     <file path="/Dummy.txt" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373821576145" ignored="false" />
     <file path="/entry.jst.ejs" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373909352945" ignored="false" />
@@ -43,10 +43,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.jst.ejs" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.jst.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/templates/entries/index.jst.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="35" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
+            <state line="16" column="21" selection-start="244" selection-end="244" vertical-scroll-proportion="0.35346097">
               <folding />
             </state>
           </provider>
@@ -61,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="entries_index.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="entries_index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/views/entries/entries_index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="6" selection-start="1639" selection-end="1639" vertical-scroll-proportion="-0.3063063">
+            <state line="76" column="33" selection-start="2664" selection-end="2664" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -111,9 +111,9 @@
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/custom.css.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/views/entries/entry.js" />
-        <option value="$PROJECT_DIR$/app/assets/templates/entries/index.jst.ejs" />
         <option value="$PROJECT_DIR$/app/assets/templates/entries/entry.jst.ejs" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/views/entries/entries_index.js" />
+        <option value="$PROJECT_DIR$/app/assets/templates/entries/index.jst.ejs" />
       </list>
     </option>
   </component>
@@ -762,13 +762,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/views/entries/entry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="3" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="26" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
@@ -797,6 +790,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/views/entries/entries_index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="33" selection-start="2664" selection-end="2664" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/views/entries/entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="3" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/templates/entries/entry.jst.ejs">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
@@ -806,14 +813,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/templates/entries/index.jst.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="35" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/views/entries/entries_index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="6" selection-start="1639" selection-end="1639" vertical-scroll-proportion="-0.3063063">
+        <state line="16" column="21" selection-start="244" selection-end="244" vertical-scroll-proportion="0.35346097">
           <folding />
         </state>
       </provider>
