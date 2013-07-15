@@ -34,7 +34,11 @@ var attributes={
     address:$('#new_entry_address').val(),
     tag:$('#new_entry_tags').val()
 };
-        this.collection.create(attributes, {
+        console.log (attributes.name);
+        if(!attributes.name&&!this.checkURL(attributes.address)) alert("Error:name cannot be blank\n Error:Invalid URL Address");
+        else if(!attributes.name&&this.checkURL(attributes.address)) alert("Error:name cannot be blank");
+        else if(attributes.name&&!this.checkURL(attributes.address)) alert("Error:Invalid URL Address");
+        else this.collection.create(attributes, {
             wait: true,
             success: function() {
                 return $('#new_entry')[0].reset();
@@ -43,6 +47,13 @@ var attributes={
         });
         $('#createBookmark').hide();
     },
+  checkURL:function(value) {
+    var urlregex = new RegExp("^(http:\/\/www.|https:\/\/www.|ftp:\/\/www.|www.){1}([0-9A-Za-z]+\.)");
+    if (urlregex.test(value)) {
+        return (true);
+    }
+    return (false);
+},
     handleError: function(entry, response) {
         var attribute, errors, message, messages, st, _i, _len;
         if (response.status === 422) {
