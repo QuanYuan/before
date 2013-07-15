@@ -24,7 +24,7 @@
     <file path="/about.html.erb" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373832493843" ignored="false" />
     <file path="/routes.rb" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373832658437" ignored="false" />
     <file path="/contact.html.erb" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373832628700" ignored="false" />
-    <file path="/books_spec.rb" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373922553802" ignored="false" />
+    <file path="/books_spec.rb" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373923107167" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,19 +53,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="26" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
+            <state line="43" column="16" selection-start="1160" selection-end="1160" vertical-scroll-proportion="1.0031104">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="books_spec.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="books_spec.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/requests/books_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="3" selection-start="342" selection-end="342" vertical-scroll-proportion="0.25660965">
+            <state line="28" column="0" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -721,13 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="26" selection-start="442" selection-end="442" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="559" selection-end="559" vertical-scroll-proportion="0.0">
@@ -744,7 +737,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/requests/books_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="3" selection-start="342" selection-end="342" vertical-scroll-proportion="0.25660965">
+        <state line="28" column="0" selection-start="951" selection-end="951" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="16" selection-start="1160" selection-end="1160" vertical-scroll-proportion="1.0031104">
           <folding />
         </state>
       </provider>
