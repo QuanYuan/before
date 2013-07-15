@@ -1,37 +1,57 @@
-<h1>Stored Bookmarks</h1>
+
 <a href="/">Bookmarks</a>
 <a href="/">Home</a>
 <a href="/about">About</a>
 <a href="/contact">Contact</a>
 <br>
-<button id="draw">New Bookmark</button>
-<input type="text" id="filterField" value="Filtering">
-<button id="filterEntry">Filter</button>
+
+
 
 <div id="createBookmark">
 <h2> New Bookmark</h2>
 <form id="new_entry">
  <ul>
-  Name
+  Name:
+  <br>
   <input type="text" name="name" id="new_entry_name"> </ul>
-<ul>
-  Address
+  <ul>
+  Address:
+  <br>
   <input type="text" name="address" id="new_entry_address"></ul>
   <ul>
-    Tags
+    Tags:
+   <br>
   <input type="text" name="tags" id="new_entry_tags"></ul>
   <input type="submit" value="Add">
 </form>
 </div>
 
-<br>
-<tr>
-  <td>Name</td>
-  <td>Address</td>
-  <td>Tags</td>
-</tr>
 
+<p><b><font size="5">Stored Bookmarks</font></b>
+<input type="text" id="filterField" value="Filtering">
+<button id="filterEntry">Filter</button>
+<button id="draw">New Bookmark</button>
+</p>
+<br>
+
+<table id="myTable" border="1" width=50%>
+ <colgroup>
+    <col style="width: 20%" />
+    <col style="width: 20%" />
+    <col style="width: 20%" />
+    <col style="width: 20%" />
+    <col style="width: 20%" />
+  </colgroup>
+<tr>
+  <th>Name</th>
+  <th>Address</th>
+  <th>Tags</th>
+  <th>  </th>
+  <th>  </th>
+</tr>
+</table>
 <div id="entries"></div>
 <div class="filterResults"></div>
+
 
 

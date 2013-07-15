@@ -9,16 +9,16 @@
     <file path="/book.js.coffee" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373772483353" ignored="false" />
     <file path="$USER_HOME$/SEM_setup/amp/app/assets/javascripts/amp/models/user.js" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373773227101" ignored="false" />
     <file path="/entries.js.coffee" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373773734590" ignored="false" />
-    <file path="/entry.js" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373825405746" ignored="false" />
+    <file path="/entry.js" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373861501112" ignored="false" />
     <file path="/entries_router.js.coffee" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373774015900" ignored="false" />
     <file path="/entries_index.js.coffee" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373774278472" ignored="false" />
     <file path="/entries_router.js" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373831935068" ignored="false" />
     <file path="/book.js" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373775572351" ignored="false" />
     <file path="/entries_index.js" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373831273769" ignored="false" />
-    <file path="/index.jst.ejs" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373832780739" ignored="false" />
+    <file path="/index.jst.ejs" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373858792914" ignored="false" />
     <file path="/seeds.rb" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373776944277" ignored="false" />
     <file path="/Dummy.txt" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373821576145" ignored="false" />
-    <file path="/entry.jst.ejs" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373825538380" ignored="false" />
+    <file path="/entry.jst.ejs" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373862172705" ignored="false" />
     <file path="/hello.html" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373831710091" ignored="false" />
     <file path="/main_controller.rb" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373832609596" ignored="false" />
     <file path="/about.html.erb" changelist="dc401420-d704-44f6-9361-8f2813a082be" time="1373832493843" ignored="false" />
@@ -46,61 +46,16 @@
       <file leaf-file-name="entries_router.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routers/entries_router.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="55" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0">
+            <state line="2" column="8" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="entries_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/entries_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/main_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="contact.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/main/contact.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="14" selection-start="14" selection-end="14" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/main/about.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jst.ejs" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.jst.ejs" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/templates/entries/index.jst.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="3" selection-start="134" selection-end="134" vertical-scroll-proportion="0.12562814">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
+            <state line="43" column="13" selection-start="732" selection-end="911" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,16 +73,16 @@
       <file leaf-file-name="entry.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/assets/javascripts/views/entries/entry.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="5" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+            <state line="8" column="22" selection-start="275" selection-end="350" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="entry.jst.ejs" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="entry.jst.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/templates/entries/entry.jst.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="52" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
+            <state line="12" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.2799378">
               <folding />
             </state>
           </provider>
@@ -148,23 +103,23 @@
         <option value="$PROJECT_DIR$/app/assets/javascripts/collections/entries.js" />
         <option value="$PROJECT_DIR$/app/controllers/entries_controller.rb" />
         <option value="$PROJECT_DIR$/db/seeds.rb" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/views/entries/entry.js" />
-        <option value="$PROJECT_DIR$/app/assets/templates/entries/entry.jst.ejs" />
         <option value="$PROJECT_DIR$/app/models/entry.rb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/views/entries/entries_index.js" />
         <option value="$PROJECT_DIR$/app/assets/templates/entries/hello.html" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/routers/entries_router.js" />
         <option value="$PROJECT_DIR$/app/views/main/about.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/main_controller.rb" />
         <option value="$PROJECT_DIR$/app/views/main/contact.html.erb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/routers/entries_router.js" />
         <option value="$PROJECT_DIR$/app/assets/templates/entries/index.jst.ejs" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/views/entries/entry.js" />
+        <option value="$PROJECT_DIR$/app/assets/templates/entries/entry.jst.ejs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="709" />
-    <option name="y" value="22" />
+    <option name="x" value="621" />
+    <option name="y" value="136" />
     <option name="width" value="748" />
     <option name="height" value="804" />
   </component>
@@ -269,82 +224,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="book" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -434,7 +313,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="routers" />
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -700,14 +583,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="709" y="22" width="748" height="804" extended-state="0" />
-    <editor active="true" />
+    <frame x="621" y="136" width="748" height="804" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38176638" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33475783" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -783,13 +666,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/book.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="0.34992224">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/seeds.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="555" selection-end="555" vertical-scroll-proportion="0.24774775" />
@@ -816,34 +692,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/templates/entries/entry.jst.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="52" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/views/entries/entry.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="5" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/templates/entries/hello.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routers/entries_router.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="55" selection-start="821" selection-end="821" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/entries_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="0" selection-start="386" selection-end="386" vertical-scroll-proportion="0.0">
@@ -854,13 +702,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/main/about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/views/entries/entries_index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="43" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -886,9 +727,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/book.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="288" selection-end="288" vertical-scroll-proportion="0.34992224">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/routers/entries_router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="8" selection-start="62" selection-end="62" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/views/entries/entries_index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="43" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/views/entries/entry.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="22" selection-start="275" selection-end="350" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/templates/entries/index.jst.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="3" selection-start="134" selection-end="134" vertical-scroll-proportion="0.12562814">
+        <state line="43" column="13" selection-start="732" selection-end="911" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/templates/entries/entry.jst.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="293" selection-end="293" vertical-scroll-proportion="0.2799378">
           <folding />
         </state>
       </provider>
