@@ -42,6 +42,7 @@
     <orderEntry type="library" scope="PROVIDED" name="ffi (v1.9.0, RVM: ruby-1.9.3-p448 [rails3tutorial2ndEd]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="hike (v1.2.3, RVM: ruby-1.9.3-p448 [rails3tutorial2ndEd]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v0.6.1, RVM: ruby-1.9.3-p448 [rails3tutorial2ndEd]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jasmine (v1.3.2, RVM: ruby-1.9.3-p448 [rails3tutorial2ndEd]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="journey (v1.0.4, RVM: ruby-1.9.3-p448 [rails3tutorial2ndEd]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="jquery-rails (v3.0.4, RVM: ruby-1.9.3-p448 [rails3tutorial2ndEd]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v1.8.0, RVM: ruby-1.9.3-p448 [rails3tutorial2ndEd]) [gem]" level="application" />
@@ -50,6 +51,7 @@
     <orderEntry type="library" scope="PROVIDED" name="mini_portile (v0.5.1, RVM: ruby-1.9.3-p448 [rails3tutorial2ndEd]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="multi_json (v1.7.7, RVM: ruby-1.9.3-p448 [rails3tutorial2ndEd]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="nokogiri (v1.6.0, RVM: ruby-1.9.3-p448 [rails3tutorial2ndEd]) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="pg (v0.12.2, RVM: ruby-1.9.3-p448 [rails3tutorial2ndEd]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="polyglot (v0.3.3, RVM: ruby-1.9.3-p448 [rails3tutorial2ndEd]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack (v1.4.5, RVM: ruby-1.9.3-p448 [rails3tutorial2ndEd]) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rack-cache (v1.2, RVM: ruby-1.9.3-p448 [rails3tutorial2ndEd]) [gem]" level="application" />

@@ -4,15 +4,28 @@ position:absolute;
 right:10px;
 }
 </style>
-<a href="/">Bookmarks</a>
+<header class="navbar navbar-fixed-top navbar-inverse">
+<div class="navbar-inner">
+    <div class="container">
+    <nav>
+            <ul class="nav pull-right">
+<a href="/" font size="5">Bookmarks</a>
 <a href="/">Home</a>
 <a href="/about">About</a>
 <a href="/contact">Contact</a>
+  </ul>
+      </nav>
+</div>
+</div>
+</header>
+<br>
+<br>
+<br>
+<br>
 <br>
 
 
-
-<div id="createBookmark">
+<div id="createBookmark" >
 <h2> New Bookmark</h2>
 <form id="new_entry">
  <ul>
@@ -27,20 +40,26 @@ right:10px;
     Tags:
    <br>
   <input type="text" name="tags" id="new_entry_tags"></ul>
-  <input type="submit" value="Create Bookmark">
+  <input type="submit" value="Create Bookmark" class="btn btn-primary">
 </form>
+<br>
+<br>
 </div>
 
 
 <p><b><font size="5">Stored Bookmarks</font></b>
 <div id="putRight">
 <input type="text" id="filterField" value="Filtering">
-<button id="filterEntry">Filter</button>
-<button id="draw" style="background-color:lightblue">+New Bookmark</button>
+<button id="filterEntry" class="btn btn-primary">Filter</button>
+<button id="draw" class="btn btn-primary btn-info">+New Bookmark</button>
 
 </div>
 </p>
 
+<br>
+<br>
+<br>
+<br>
 <br>
 <br>
 
