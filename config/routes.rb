@@ -9,6 +9,7 @@ Book::Application.routes.draw do
   root to: "main#index"
   match '/about', to:'main#about'
   match '/contact', to:'main#contact'
+  match 'auth/:provider/callback', to:'sessions#create'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
