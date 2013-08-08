@@ -2,7 +2,7 @@
 
   book.routers.Entries=Backbone.Router.extend({
       routes:{
-          "": "index",
+          "book": "index",
           "entries/:id": "show"
 
       },
